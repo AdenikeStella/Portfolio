@@ -9,9 +9,11 @@
     --white: #F0F0F8;
     --muted: rgba(240,240,248,0.38);
     --faint: rgba(240,240,248,0.08);
+  --font-sans: var(--font-syne);
+  --font-serif: var(--font-instrument-serif);
   }
 
-  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  *, *::before, *::after { margin: 0; box-sizing: border-box; }
  
   html { scroll-behavior: smooth; }
  
@@ -22,7 +24,7 @@
     overflow-x: hidden;
     cursor: none;
   }
- 
+
   /* Custom cursor */
   .cursor {
     position: fixed;
@@ -44,7 +46,7 @@
     transition: transform 0.35s ease, width 0.2s, height 0.2s;
     opacity: 0.6;
   }
- 
+
   /* Noise texture overlay */
   body::before {
     content: '';
@@ -56,5 +58,11 @@
     opacity: 0.4;
   }
 
+  @theme {
+  --font-sans: var(--font-syne);
+  --font-serif: var(--font-instrument-serif);
+}
 
+ 
+  
 
