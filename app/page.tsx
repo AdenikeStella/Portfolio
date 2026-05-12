@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Hero from "./components/main/Hero";
+import Profile from "./components/main/Profile";
 import Stats from "./components/main/Stats";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <main className="flex flex-col w-full">
         <Hero/>
         <Stats/>
+        <Profile/>
       </main>
     </div>
   );
