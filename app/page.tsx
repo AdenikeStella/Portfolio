@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import Hero from "./components/main/Hero";
 import Profile from "./components/main/Profile";
 import Stats from "./components/main/Stats";
+import Work from "./components/main/Contact";
+import Contact from "./components/main/Contact";
 
 export default function Home() {
   return (
@@ -12,6 +14,7 @@ export default function Home() {
         <Hero/>
         <Stats/>
         <Profile/>
+        <Contact/>
       </main>
       <Footer/>
     </div>
