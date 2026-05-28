@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/main/Hero";
 import Profile from "./components/main/Profile";
@@ -12,6 +13,7 @@ export default function Home() {
         <Stats/>
         <Profile/>
       </main>
+      <Footer/>
     </div>
   );
 }
