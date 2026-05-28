@@ -6,11 +6,6 @@ export default function Footer() {
                 &copy; {new Date().getFullYear()} Adenike Stella. All rights reserved.
             </span>
 
-            <span className="text-[13px] text-center" style={{ fontFamily: 'var(--font-dm-mono)', color: 'var(--muted)' }}>
-                Built by Adenike Stella. View the source code on <a href="https://github.com/adenikestella/portfolio" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
-                    GitHub
-                </a>.
-            </span>
 
             <div className="flex justify-start items-center gap-1 font-sans text-xl font-extrabold text-white" style={{ fontFamily: 'var(--font-syne)' }}>
                 A<span className="bg-[#0057FF] w-2 h-2 flex" />Stella

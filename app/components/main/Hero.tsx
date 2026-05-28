@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex flex-col overflow-hidden px-5 md:px-15 pt-30 md:pt-40 md:pb-25">
+    <section className="relative min-h-screen flex flex-col overflow-hidden px-5 md:px-15 pt-30 md:py-30 py-5" id="home">
 
       {/* Grid */}
       <div className="absolute inset-0 pointer-events-none" style={{

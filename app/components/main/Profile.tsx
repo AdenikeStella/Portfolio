@@ -1,6 +1,6 @@
 export default function Profile() {
     return (
-        <section id="about" className="relative min-h-screen flex flex-col overflow-hidden px-5 md:px-15 pt-30 md:pt-40 md:pb-25" style={{ borderTop: 'solid 1px var(--faint)' }}>
+        <section id="about" className="relative min-h-screen flex flex-col overflow-hidden px-5 md:px-15 pt-30 md:py-30 py-5" style={{ borderTop: 'solid 1px var(--faint)' }}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-0">
                 <div className="flex flex-col gap-4 w-full">
                     {/* Eyebrow */}
